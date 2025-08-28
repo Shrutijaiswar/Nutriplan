@@ -1,30 +1,72 @@
-# Nutriplan
+🌱 NutriPlan
 
-*Automatically synced with your [v0.app](https://v0.app) deployments*
+NutriPlan is a modern nutrition planning web application built with Next.js 14 (App Router), TypeScript, Tailwind CSS, and shadcn/ui. It helps users track meals, analyze nutrition intake, and generate personalized diet recommendations.
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/shrutijaiswar18jan-gmailcoms-projects/v0-nutriplan)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.app-black?style=for-the-badge)](https://v0.app/chat/projects/fp6ctPAiSGe)
+🚀 Tech Stack
 
-## Overview
+Next.js 14 – React framework with App Router
 
-This repository will stay in sync with your deployed chats on [v0.app](https://v0.app).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.app](https://v0.app).
+TypeScript – Type safety
 
-## Deployment
+Tailwind CSS – Utility-first styling
 
-Your project is live at:
+shadcn/ui – Prebuilt accessible UI components
 
-**[https://vercel.com/shrutijaiswar18jan-gmailcoms-projects/v0-nutriplan](https://vercel.com/shrutijaiswar18jan-gmailcoms-projects/v0-nutriplan)**
+PostCSS – CSS processing
 
-## Build your app
+Vercel – Deployment
 
-Continue building your app on:
+📂 Project Structure
+nutriplan/
+ ├── app/              # Next.js app router pages & layouts
+ ├── components/       # Reusable UI components
+ ├── lib/              # Utility functions, configs
+ ├── public/           # Static assets (images, icons, etc.)
+ ├── styles/           # Global styles (Tailwind, CSS)
+ ├── next.config.mjs   # Next.js configuration
+ ├── package.json      # Dependencies & scripts
+ ├── tsconfig.json     # TypeScript configuration
+ ├── pnpm-lock.yaml    # Lockfile for dependencies
+ └── README.md         # Documentation
 
-**[https://v0.app/chat/projects/fp6ctPAiSGe](https://v0.app/chat/projects/fp6ctPAiSGe)**
+⚡ Getting Started
+1. Clone the repo
+git clone https://github.com/Shrutijaiswar/nutriplan.git
+cd nutriplan
 
-## How It Works
+2. Install dependencies
+pnpm install
+# or
+npm install
+# or
+yarn install
 
-1. Create and modify your project using [v0.app](https://v0.app)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+3. Run the development server
+pnpm dev
+# or
+npm run dev
+
+
+Now open http://localhost:3000
+ in your browser.
+
+4. Build for production
+pnpm build
+pnpm start
+
+🌍 Deployment
+
+The project is deployed on Vercel:
+👉 nutriplan.vercel.app
+
+✨ Features (Planned/Available)
+
+🥗 Add meals and track nutrition
+
+📊 Visualize calorie & nutrient intake
+
+🤖 AI-based personalized diet suggestions
+
+💾 Save user preferences and history
+
+🎨 Beautiful, responsive UI with shadcn/ui + Tailwind
